@@ -1,0 +1,978 @@
+/*font-family: 'Koh Santepheap', cursive;*/
+/*font-family: 'Gemunu Libre', sans-serif;*/
+/*font-family: 'Lobster', cursive;*/
+/*font-family: 'Dancing Script', cursive;*/
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+
+body,
+h2,
+p,
+section {
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    
+    box-sizing: border-box;
+}
+/*header*/
+.container {
+    height: 640vh;
+    width: 100%;
+    background-color: black;
+}
+
+.navigation {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    background-color: rgb(56, 52, 52);
+    position: relative;
+}
+
+.list-btn {
+    cursor: pointer;
+    display: none;
+    color: white;
+    font-size: 30px;
+
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.navigation ul li {
+    list-style: none;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    margin: 20px;
+    text-transform: uppercase;
+    color: lightgoldenrodyellow;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 90px;
+
+
+}
+
+.navigation ul li a:hover {
+    border-bottom: 2px solid rgb(245, 237, 226);
+    transition: 0.1s;
+}
+
+
+.navigation img {
+    height: 80px;
+
+}
+
+@media(max-width:994px) {
+    .navigation ul {
+        flex-direction: column;
+        position: fixed;
+        top: 100px;
+        left: 140px;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .navigation ul li {
+        margin: 15px;
+        margin-left: 0px;
+    }
+
+    .list-btn {
+        position: absolute;
+        top: 25px;
+        right: 200px;
+        position: fixed;
+    }
+
+
+}
+
+@media (max-width:650px) {
+    .navigation ul li {
+        margin-left: -75px;
+    }
+
+
+}
+
+@media (max-width:618px) {
+    .list-btn {
+        right: 100px;
+    }
+
+}
+
+@media (max-width:800px) {
+    .list-btn {
+        right: 130px;
+    }
+}
+
+@media (max-width:540px) {
+    .list-btn {
+        right: 70px;
+    }
+}
+
+.col {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.col img {
+    height: 400px;
+    width: 100%;
+
+}
+
+.txt {
+    height: 180px;
+    width: 350px;
+    background-color: rgb(0, 0, 0, 0.8);
+    border: 3px solid rgb(121, 79, 3);
+    position: absolute;
+    top: 25%;
+    left: 34.5%;
+    border-radius: 30px;
+    text-align: center;
+
+
+
+}
+
+.first {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    color: cornsilk;
+    top: 32px;
+    left: 30px;
+    position: absolute;
+    font-weight: bold;
+
+}
+
+.sceond {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(121, 79, 3);
+    font-size: 32px;
+    top: 85px;
+    left: 35px;
+    position: absolute;
+    font-weight: bold;
+
+}
+
+@media (max-width:992px) {
+    .txt {
+        left: 27%;
+    }
+}
+
+@media (max-width:768px) {
+    .txt {
+        left: 20%;
+    }
+}
+
+@media (max-width:508px) {
+    .txt {
+        left: 14%;
+    }
+}
+
+@media (max-width:454px) {
+    .txt {
+        left: 9%;
+    }
+}
+
+@media (max-width:410px) {
+    .txt {
+        left: 5%;
+    }
+}
+
+.box {
+    border: 2px solid gold;
+    width: 100%;
+    height: 450px;
+
+
+}
+
+.box img {
+    height: 60px;
+    width: 80px;
+    position: absolute;
+    left: 46%;
+    top: 10px;
+
+
+}
+
+
+.longtxt {
+    color: blanchedalmond;
+    font-family: 'Gemunu Libre', sans-serif;
+    position: absolute;
+    font-size: 23px;
+    top: 170px;
+    left: 33%;
+}
+
+
+/*section*/
+
+section{
+    position: relative;
+    background-color: rgb(34, 33, 33);
+    height: 520px;
+    width: 100%;
+
+}
+.ser{
+
+    position: absolute;
+    height: 150px;
+    width: 97%;
+    margin-top: 220px; 
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+
+
+}
+.ser-txt{
+    position: absolute;
+    height: 130px;
+    width:97% ;
+    margin-top: 310px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.one{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 21px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 60px;
+
+}
+.two{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 21px;
+    text-transform: uppercase;
+   left: 350px;
+   position: absolute;
+
+}
+.three{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 21px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 630px; 
+}
+.four{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 21px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 870px;
+}
+
+
+
+.logo{
+    position: absolute;
+    right:50%;
+    left: 50%;
+    top: 30px;
+}
+.cho-txt{
+    font-family: 'Lobster', cursive;
+    color: white;
+    top: 100px;
+    left: 462px;
+    position: absolute;
+    font-size: 35px;
+
+
+}
+.boro-txt{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 170px;
+    left: 345px;
+
+}
+.ser img{
+    max-width: 80px;
+    max-height: 70px;
+}
+
+/* secrion-2*/
+
+.sec-two{
+    height: 680px;
+    width: 100%;
+    background-color: black;
+    box-sizing: border-box;
+}
+.sec-two img{
+    max-width: 80px;
+    max-height: 65px;
+    position: absolute;
+    top: 20px;
+    left: 48%;
+    right: 50%;
+
+}
+.exprt-txt{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 33px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left:37.5% ;
+
+
+}
+.stl-txt{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left:14.5%;
+    top: 163px; 
+
+}
+.three-pic{
+    height: 520px;
+    width: 100%;
+    position: absolute;
+    top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    left: 0px;
+
+
+}
+
+.frst{
+    border: 2px solid white;
+    height: 270px;
+    width:250px;
+    background-image: url("../image/1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.scnd{
+    border: 2px solid white;
+    height: 270px;
+    width:250px;
+    background-image: url("../image/2.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.thrd{
+    border: 2px solid white;
+    height: 270px;
+    width:250px;
+    background-image: url("../image/3.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+}
+.sml-box{
+    border: 2px solid white;
+    height: 80px;
+    width: 250px;
+    top: 395px; 
+    position: absolute;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.ek-no{
+    position: absolute;
+
+}
+.sml-box p{
+    color: white;
+    font-family: 'Koh Santepheap', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sml-box small{
+    color: white;
+    font-size: 16px;
+}
+/* section-3*/
+.sec-three{
+    height: 865px;
+    width: 100%;
+    background-color: rgb(34, 33, 33);
+}
+
+.sec-three img{
+    max-width: 120px;
+    max-height: 70px;
+    position: absolute;
+    top: 25px;
+    left: 47%;
+    right: 50%;
+}
+.sec-three .aree{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: absolute;
+    left:35% ;
+    top: 110px;
+}
+
+.dedicated{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left:30%;
+    top: 163px; 
+}
+
+.time-box{
+    height: 643px; 
+    width:400px ;
+    position: absolute;
+    top: 207px;
+    padding: 10px;
+
+   
+}
+.open-box{
+    height: 120px;
+    width: 400px;
+    margin:25px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.opn-txt{
+    font-family: 'Koh Santepheap', cursive;
+    color: white;
+    text-transform: uppercase;
+    font-size: 27px;
+    font-weight: bold;
+
+}
+.cls-txt{
+    font-family: 'Koh Santepheap', cursive;
+    color: white;
+    text-transform: uppercase;
+    font-size: 27px;
+    font-weight: bold;
+
+}
+.maje-txt{
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 17px;
+
+}
+.majhe-time{
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 17px;
+
+
+}
+ .time-box .location-box{
+    top: 375px;
+    position: absolute;
+ }
+
+ /*kechi*/
+
+ .kechi-box{
+    height: 645px; 
+    width:300px ;
+    position: absolute;
+    left:37% ;
+    top: 207px;
+   
+ }
+ .kechi-box{
+    background-image: url("../image/kechi.jpg");
+    background-position: center;
+    background-size: cover;
+   
+
+ }
+ /* form*/
+
+
+ form input{
+     color: tan;
+ }
+
+ .f-box{
+     height: 445px;
+     width: 370px;
+     position: absolute;
+     top: 280px;
+     left: 66%;
+     
+     }
+     .f-input{
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+         height: 60px;
+         width: 367px;
+         top: 40px;
+         position: absolute;
+         
+
+        
+     }
+     .f-input2{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 60px;
+        width: 367px;
+        top: 115px;
+        position: absolute;
+
+     }
+     .f-input3{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 60px;
+        width: 367px;
+        top: 189px;
+        position: absolute;
+    
+
+     }
+     .f-input4{
+    
+        height: 60px;
+        width: 367px;
+        top: 262px;
+        position: absolute;
+        background-color: chartreuse;
+
+     }
+
+    .f-input input{
+        align-items: center;
+        height: 60px; 
+        width: 170px;
+        padding-left: 30px;
+        border: 1px solid white;
+    }
+
+    .f-input .time{
+        padding-left: 63px;
+        background-color: rgb(34, 33, 33);
+     font-weight: bold;
+ 
+       
+ }
+        
+    
+    .f-input2 input{
+        height: 60px; 
+        width: 170px;
+        padding-left: 58px;
+        border: 1px solid white;
+
+    }
+ .f-input3 input{
+     height:60px ;
+     width:170px ;
+     padding-left: 58px;
+     border: 1px solid white;
+    
+ }
+ .f-input4 input{
+    height:60px ;
+    width:370px ;
+    padding-left: 166px;
+    border: 1px solid white;
+ }
+
+ .f-btn{
+    align-items: center;
+    height: 60px;
+    width: 152px;
+    top: 337.5px;
+    position: absolute;
+    left:32%;
+    border: none;
+    background-color:rgb(141, 83, 42);
+    text-transform: uppercase;
+    font-weight: bold;
+
+ }
+ .f-btn:hover{
+     background-color: cornsilk;
+     transition: 0.5s;
+     
+ }
+
+
+ 
+ .f-input .d-input{
+    background-color: rgb(34, 33, 33);
+     font-weight: bold;
+ }
+ .input-text{
+    background-color: rgb(34, 33, 33);
+     font-weight: bold;
+    
+ }
+
+ /*section-4*/
+
+ .four-sec{
+     height: 500px;
+     width: 100%;
+     background-color: black;
+ }
+ .hat-box img{
+     height: 70px;
+     width: 80px;
+     left: 47.5%;
+     right: 50%;
+     position: absolute;
+     top: 20px;
+
+ }
+ .customer{
+     color: white;
+     font-family: 'Lobster', cursive;
+     position: absolute;
+     left: 42%;
+     top: 105px;
+
+ }
+ .four-sec p{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left:37%;
+    top: 163px; 
+}
+ .four-sec span{
+     color: white;
+     font-family: 'Courier New', Courier, monospace;
+     position: absolute;
+     top: 270px;
+}
+.four-sec samp{
+    color: white;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 380px;
+    left: 80%;
+
+}
+
+/*section-5*/
+
+.five-sec{
+    height: 554px;
+    width: 100%;
+    background-color: rgb(34, 33, 33);
+    
+
+}
+.five-box{
+    height: 550px;
+    width:35%;
+    margin-top: -1px;
+
+    background-image: url("../image/last.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.five-sec p{
+    color: white;
+    font-size: 38px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight:600;
+    position: absolute;
+    top: 30px;
+    left: 415px;
+
+}
+.five-sec small{
+    color: white;
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    left: 415px;
+    top: 90px;
+    text-transform: uppercase;
+  
+}
+.five-sec samp{
+    color: white;
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    left: 415px;
+    top: 130px;
+
+}
+.five-sec .s-txt{
+    color: white;
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    left: 415px;
+    top: 203px;
+
+}
+
+.logo-box{
+    height: 130px ;
+    width: 62%;
+    position: absolute;
+    top: 280px;
+    left: 415px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-box img{
+    max-width: 70px;
+    max-height: 60px;
+}
+
+.number-box{
+    height: 100px ;
+    width: 62%;
+    position: absolute;
+    top: 390px;
+    left: 433px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.number-box h2{
+    font-size: 45px;
+    font-weight: 800;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+
+}
+ 
+.last-box{
+
+    height: 100px ;
+    width: 62%;
+    position: absolute;
+    top: 470px;
+    left: 424px; 
+    display: flex;
+
+}
+.last-box .pro{
+    font-size: 12px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    left: 20px;
+
+}
+
+.last-box .stun{
+    font-size: 12px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    left: 38%; 
+
+}
+.last-box .satis{
+    font-size: 12px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    left: 75%;
+}
+
+/*footer*/
+
+footer{
+
+    height: 390px;
+    width: 100%;
+    background-color: black;
+
+}
+
+.kolla{
+    max-height: 120px;
+    max-width: 150px;
+    position: absolute;
+    left: 47.5%;
+    right: 50%;
+    margin-top: 10px;
+}
+.golden img{
+    max-width: 150px;
+    max-height: 75px;
+    position: absolute;
+    left: 48.5%;
+    right: 50%;
+    margin-top:160px ;
+    background-color: black;
+}
+
+.mail{
+    height: 100px;
+    width: 350px; 
+    position: absolute;
+    margin-top: 170px;
+    left: 20%;
+    display: flex;
+    padding-left: 90px;
+    flex-direction: column;
+}
+
+.location{
+
+    height: 100px;
+    width: 350px; 
+    position: absolute;
+    margin-top: 170px;
+    left: 56%;
+    display: flex;
+    padding-left: 90px;
+    flex-direction: column;
+
+}
+.mail P{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mail samp{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.location p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.location samp{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/*bootstrap icon*/
+
+.bots{
+    
+    height: 70px;
+    width: 450px;
+    position: absolute;
+    margin-top: 295px;
+    left: 37%;
+    display: flex;
+    
+
+}
+
+.fb{
+    border-radius: 10px;
+    height: 65px;
+    width: 80px;
+    margin-left: 10px;
+    background-color: whitesmoke;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.twit i{
+    font-size: 50px;
+    left: 5px;
+    color: black;
+
+}
+
+.fot-one{
+    background-color: rgb(34, 33, 33);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fot-one p{
+    color: white;
+   
+}
+ 
+
+
